@@ -11,7 +11,7 @@ import java.util.Date;
 @Getter
 @ToString
 public class Classes implements Serializable {
-    private Long classes_id;
+    private Integer classes_id;
     private String classes_name;
     private String classes_teacher;
     private Date createTime;
